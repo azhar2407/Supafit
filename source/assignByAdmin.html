@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="application-name" content="Supafit">
+	<title>Supafit</title>
+	<link rel="stylesheet" type="text/css" href="application.css">
+	<link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="/bower_components/alertify/themes/alertify.bootstrap.css" rel="stylesheet">
+	<link href="/bower_components/alertify/themes/alertify.default.css" rel="stylesheet">
+	<link href="/bower_components/alertify/themes/alertify.core.css" rel="stylesheet">
+</head>
+<body class="aba-body-class">
+	<script src="application.js"></script>
+	<script src="/bower_components/pico-modal/src/picoModal.js"></script>
+	<div class="top-bar">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">
+	        			<img alt="Brand" class="user-listing-brandimage" src="/resources/images/BrandImage.png">
+	        		</a>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class='aba-wrapper-div'>
+		<div class='aba-sec-wrapper-div'>
+			<div class="aba-user-details">
+				<div id='aba-image-div' class='aba-image-div-class'>
+					<img class='aba-profile-image' src='/resources/images/BrandImage.png'>
+				</div>
+				<div id='aba-details' class='aba-details'>
+					<div id='aba-name' class='aba-details-child'>Name - Anuj Kumar</div>
+					<div id='aba-email' class='aba-details-child'>Email - anujkumar@gmail.com</div>
+					<div id='aba-contact' class='aba-details-child'>Contact - 8888888888</div>
+					<div id='aba-address' class='aba-details-child'>Address - something</div>
+					<div id='aba-start-date' class='aba-details-child'>Start Date - 27th Feb</div>
+				</div>
+			</div>
+			<div class="aba-assign-trainers">
+				<form class="form-horizontal">
+					  <div class="form-group">
+					    <label for="abaPhysician" class="col-sm-2 control-label">Physician</label>
+					    <div class="col-sm-4">
+					      <input type="physician" class="form-control" id="abaPhysicianInp" placeholder="Physician" disabled="disabled">
+					    </div>
+					    <button class="btn btn-default" id="abaPhysician" type="Change" onClick="modalAction(this.id); return false">Assign</button>
+					  </div>
+					  <div class="form-group">
+					    <label for="abaDietitian" class="col-sm-2 control-label">Dietitian</label>
+					    <div class="col-sm-4">
+					      <input type="Dietitian" class="form-control" id="abaDietitianInp" placeholder="Dietitian" disabled="disabled">
+					    </div>
+					    <button class="btn btn-default" id="abaDietitian" onClick="modalAction(this.id); return false" type="Change">Assign</button>
+					  </div>
+					  <div class="form-group">
+					    <label for="abaYogaTrainer" class="col-sm-2 control-label">Yoga Trainer</label>
+					    <div class="col-sm-4">
+					      <input type="Yoga Trainer" class="form-control" id="abaYogaTrainerInp" placeholder="Yoga Trainer" disabled="disabled">
+					    </div>
+					    <button class="btn btn-default" id="abaYogaTrainer" onClick="modalAction(this.id); return false" type="Change">Assign</button>
+					  </div>
+				</form>
+			</div>
+		</div>
+		<div class='aba-sec-wrapper-div'>
+		</div>
+	</div>
+</body>
+</html>

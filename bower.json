@@ -1,0 +1,25 @@
+{
+  "name": "SupafitUI",
+  "description": "Supafit UI",
+  "main": "login.html",
+  "authors": [
+    "Azharuddin Ahmed"
+  ],
+  "license": "none",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6",
+    "angular": "angularjs#^1.4.9",
+    "alertify": "^0.3.10",
+    "pico-modal": "2.0.1"
+  }
+}

@@ -1,0 +1,63 @@
+html{
+	height: 100%; 
+	padding: 0; 
+	margin: 0;
+}
+
+.aba-body-class{
+	height: 100%; 
+	padding: 0; 
+	margin: 0;
+}
+
+.aba-wrapper-div{
+	height: 100%;
+	width: 100%;
+}
+
+.aba-sec-wrapper-div{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.aba-user-details{
+	height: 50%;
+	width: 100%;
+	float: left;
+}
+
+.aba-assign-trainers{
+	height: 50%;
+	width: 100%;
+	float: left;
+}
+
+.aba-image-div-class{
+	height: 80%;
+	width: 40%;
+	float: left;
+	padding: 20px;
+}
+
+.aba-details{
+	height: 100%;
+	width: 60%;
+	float: left;
+	padding: 20px;
+	margin-top: 25px;
+}
+
+.aba-details-child{
+	font-weight: 900;
+}
+
+.aba-profile-image{
+	width: 100%;
+	border-radius: 50%;
+	height: 100%;
+}
+
+.aba-details-child{
+	word-break: break-all;
+}

@@ -1,0 +1,13 @@
+.login-form-class{
+	margin:150px auto 0px auto;
+	width:36%;
+	text-align:left;
+}
+
+.login-form-class .form-control{
+	width:	60% !important;
+}
+
+.alertify-logs{
+	top: 10px !important;
+}

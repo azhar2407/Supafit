@@ -1,0 +1,35 @@
+.user-listing-brandimage{
+	height: 146%;
+}
+
+.top-bar .navbar-brand{
+	padding: 15px !important;
+}
+
+.top-bar .navbar{
+	margin-bottom: 0px !important;
+}
+
+.second-bar .ul-size-adjusted{
+	height: 68px;
+}
+
+.second-bar .btn{
+	padding: 23px 12px !important;
+}
+
+.ul-content{
+	margin: 20px 15px 20px 15px;
+}
+
+.ul-profile-image-style{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.ul-row-style{
+	background-color: #F0F7FA;
+	padding: 8px;
+	margin-bottom: 11px;
+}
